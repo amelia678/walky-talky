@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+Update August 
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +19,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.translation-app {
+  padding: 20px;
+  outline: 5px solid black;
+  width: 300px;
+
+
+}
+
+.input-box {
+  outline: 5px solid red;
+  width: 100%;
+  margin: 20px auto;
+}
+
+
+.output-box {
+
+  outline: 5px solid green;
+  width: 80%;
+  margin: 20px auto;
 }
