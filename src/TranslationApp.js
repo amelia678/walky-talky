@@ -17,10 +17,11 @@ class TranslationApp extends Component {
         return (
             <div className='translation-app'>
             <InputBox 
+                theText = {this.state.text}
                 handleChange = {this._updateText}
             />
             <OutputBox
-                theText = 'falalalalalala' />
+                theText = {this.state.text} />
             </div>  
         )
     }
