@@ -42,3 +42,23 @@ code {
   width: 80%;
   margin: 20px auto;
 }
+
+.outline-blue {
+  outline: 5px solid blue;
+}
+
+.outline-red {
+  outline: 5px solid red;
+}
+
+.outline-green {
+  outline: 5px solid green;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-purple {
+  background-color: purple;
+}

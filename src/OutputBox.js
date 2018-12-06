@@ -3,7 +3,10 @@ import React from 'react';
 
 const OutputBox = (props) => {
     return (
-        <div className="output-box">
+        <div className= {`
+        output-box
+        ${props.bgClass}
+        ${props.olClass}`}>
             {props.theText}
         </div>
 
